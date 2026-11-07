@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy 21st Birthday! 🎂</title>
+<link rel="icon" type="image/jpeg" href="head.png">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Caveat:wght@500;700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="intro" id="intro"><div class="env" id="env"><div class="paper">💖</div><div class="front"></div><div class="flap"></div><div class="seal">💗</div></div><div class="hint">Ada surat buat kamu 💌<br><small>ketuk amplopnya</small></div></div>
+<button class="music" id="mus">🔇</button>
+<div class="flags" id="flags"></div>
+<main>
+  <div class="hi">🎀 hari yang spesial banget 🎀</div>
+  <h1 id="ttl"></h1>
+  <div class="hero" id="hero"><div class="bl b1"></div><div class="bl b2"></div><div class="big">21</div><div class="bl b3"></div><div class="bl b4"></div></div><br>
+  <div class="badge">⭐ Level 21 unlocked! ⭐</div>
+
+  <div class="mascot" id="mascot">
+    <svg viewBox="0 0 120 120"><circle cx="24" cy="28" r="17" fill="#d9a27a"/><circle cx="96" cy="28" r="17" fill="#d9a27a"/><circle cx="24" cy="28" r="9" fill="#ffc2da"/><circle cx="96" cy="28" r="9" fill="#ffc2da"/>
+    <circle cx="60" cy="68" r="46" fill="#e8b48c"/><ellipse cx="60" cy="82" rx="20" ry="15" fill="#fff0e0"/>
+    <ellipse class="eye" cx="42" cy="64" rx="5" ry="7" fill="#4a2a2a"/><ellipse class="eye" cx="78" cy="64" rx="5" ry="7" fill="#4a2a2a"/>
+    <circle cx="44" cy="61" r="2" fill="#fff"/><circle cx="80" cy="61" r="2" fill="#fff"/>
+    <ellipse cx="30" cy="78" rx="9" ry="6" fill="#ff8fb8" opacity=".7"/><ellipse cx="90" cy="78" rx="9" ry="6" fill="#ff8fb8" opacity=".7"/>
+    <ellipse cx="60" cy="76" rx="6" ry="4" fill="#4a2a2a"/><path d="M52 84q8 8 16 0" stroke="#4a2a2a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M38 18l22-12 22 12-22 8z" fill="#ff6fa5"/><circle cx="60" cy="6" r="5" fill="#ffc93c"/></svg>
+  </div>
+  <div class="bubble" id="say">Ketuk aku dong! 🥺👉👈</div>
+
+  <div class="card rv">
+    <h2>Tiup lilinnya yuk! 🕯️</h2>
+    <div>Ketuk lilinnya satu-satu (atau ketuk kuenya) lalu make a wish ✨</div>
+    <div class="cake" id="cake">
+      <div class="layer l3"></div><div class="layer l2"></div><div class="layer l1"><div class="drip"></div><div class="face">( ˶ˆᗜˆ˵ )</div></div>
+      <span class="berry" style="left:48px">🍓</span><span class="berry" style="right:48px">🍓</span>
+    </div>
+    <div class="wish" id="wish"></div>
+    <button id="mic">Tiup pakai mic 🎤</button><button id="relight">Nyalain lagi 🔥</button>
+  </div>
+
+  <div class="card rv">
+    <h2>Album kenangan kita 📸</h2>
+    <div>Ketuk polaroidnya untuk pasang foto kalian!</div>
+    <div class="gal">
+      <div class="pol"><div class="ph" style="background-image:url('foto1.jpeg')"></div><small>Kita berdua</small><input type="file" accept="image/*" hidden></div>
+      <div class="pol"><div class="ph" style="background-image:url('foto2.jpeg')"></div><small>Kamu yang imut</small><input type="file" accept="image/*" hidden></div>
+      <div class="pol"><div class="ph" style="background-image:url('foto3.jpeg')"></div><small>Momen favorit</small><input type="file" accept="image/*" hidden></div>
+    </div>
+  </div>
+
+  <div class="card rv">
+    <h2>Tulis harapanmu 🎈</h2>
+    <div style="margin-bottom:8px">Nanti harapannya terbang jadi balon!</div>
+    <input id="wishin" maxlength="30" placeholder="aku pengen..."><button id="send">Terbangkan</button>
+  </div>
+
+  <div class="card rv">
+    <h2>Kenapa kamu bikin aku sayang 💗</h2>
+    <div>Ketuk kartunya ya!</div>
+    <div class="reasons">
+      <div class="flip"><div class="in"><div class="f">🐰</div><div class="b">Senyummu indah</div></div></div>
+      <div class="flip"><div class="in"><div class="f">🧸</div><div class="b">Kamu bikin aku pengin jadi orang yang lebih baik</div></div></div>
+      <div class="flip"><div class="in"><div class="f">🍓</div><div class="b">Ketawamu itu hal favoritku</div></div></div>
+      <div class="flip"><div class="in"><div class="f">🌷</div><div class="b">Kamu tetap cantik, bahkan pas lagi ngambek</div></div></div>
+    </div>
+  </div>
+
+  <div class="card rv">
+    <h2>Pojok Keluh Kesah 📮</h2>
+    <div style="margin-bottom:8px">Capek? Kesel? Laper? Tulis di sini, aku dengerin (dan pura-pura serius) 😤</div>
+    <textarea id="keluh" rows="3" maxlength="100" placeholder="hari ini aku kesel karena..."></textarea><br>
+    <button id="kirimKeluh">Kirim ke pacar 📨</button>
+    <div class="bubble" id="balasan" style="display:none"></div>
+  </div>
+
+  <div class="card rv">
+    <h2>Ada kado kecil buat kamu 🎁</h2>
+    <button id="gift">Buka kado</button>
+    <div class="letter" id="letter"><div class="tw" id="tw"></div><div class="sign" id="sign" style="display:none">Love, Jakaaaa 💌</div></div>
+  </div>
+  <button id="party">Pesta confetti! 🎉</button>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
