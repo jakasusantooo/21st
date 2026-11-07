@@ -20,7 +20,7 @@ function hearts(x,y,n){var H=['💖','💕','✨','🌸','💗'];for(var i=0;i<(
 h.style.left=x+'px';h.style.top=y+'px';h.style.setProperty('--x',(Math.random()*80-40)+'px');document.body.appendChild(h);(function(h){setTimeout(function(){h.remove()},1000)})(h)}}
 document.addEventListener('pointerdown',function(e){if(e.target.tagName!=='INPUT')hearts(e.clientX,e.clientY,3)});
 /* maskot */
-var M=['Happy birthday cantikku! 🎂','Kamu paling imut sedunia 🐰','Peluk virtual dulu yaa 🤗','21 tahun, makin lucu aja 🍓','Aku sayang kamu banyak-banyak 💗','Hari ini kamu ratunya 👑','Jangan lupa makan kue yaa 🍰'],mi=0;
+var M=['Happy birthday cantikku! 🎂','Kamu paling imut sedunia 🐰','Peluk virtual dulu yaa 🤗','21 tahun, makin lucu aja 🍓','Aku sayang kamu banyak-banyak 💗','Hari ini kamu ratunya 👑','Jangan lupa mam yaaa'],mi=0;
 $('mascot').onclick=function(e){$('say').textContent=M[mi++%M.length];hearts(e.clientX,e.clientY,6)};
 /* kue */
 var cake=$('cake'),cans=[];
